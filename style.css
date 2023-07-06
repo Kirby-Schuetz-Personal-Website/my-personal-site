@@ -1,7 +1,16 @@
+html {
+  background-color: rgb(255, 245, 233);
+}
+
 .header {
-  font: Helvetica, sans-serif;
+  font: "Helvetica", "Arial", sans-serif;
   font-weight: bold;
-  background-color: antiquewhite;
+  vertical-align: baseline;
+  padding: 16px;
+  padding-inline-start: 40px;
+  margin-block-start: 1em;
+  scroll-margin-block-end: 1em;
+  letter-spacing: 0.015em;
 }
 .header a:link {
   color: #151414;
@@ -25,25 +34,33 @@
   color: #151414;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-weight: bold;
-  background-color: antiquewhite;
+  padding: 16px;
+  padding-inline-start: 40px;
 }
 
 .body {
-  font: Helvetica, sans-serif;
+  font: "Helvetica", "Arial", sans-serif;
   color: #151414;
-  background-color: antiquewhite;
+  font-size: 15 px;
+  margin: auto;
+  padding-inline-start: 40px;
+  padding: 16px;
 }
 
 .hi {
-  background-color: #C6C0B4;
-  font: Helvetica, sans-serif;
+  background-color: #d0d0c4;
+  font: "Helvetica", "Arial", sans-serif;
   color: #434C2E;
+  display: flex;
+  padding: 34px;
+  align-items: center;
 }
 
 .quote {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color: #6D5B3E;
-  background-color: antiquewhite;
+  padding-inline-start: 40px;
+  padding: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

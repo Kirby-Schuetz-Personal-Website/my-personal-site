@@ -1,10 +1,25 @@
 $primary-color: #151414;
-$font-stack: Helvetica, sans-serif;
+$font-stack: 'Helvetica', 'Arial', sans-serif;
 
+html{
+background-color: rgb(255, 245, 233);
+// font: $font-stack;
+// color: $primary-color;
+// font-size: 15 px;
+// margin: auto;
+// position: relative;
+// padding-inline-start: 40px;
+// padding: 16px;
+}
 .header{
     font: $font-stack;
     font-weight: bold;
-    background-color: antiquewhite;
+    vertical-align: baseline;
+    padding: 16px;
+    padding-inline-start: 40px;
+    margin-block-start: 1em;
+    scroll-margin-block-end: 1em;
+    letter-spacing: .015em;
     
     a:link{
         color:$primary-color;
@@ -30,24 +45,31 @@ $font-stack: Helvetica, sans-serif;
     color: $primary-color;
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     font-weight: bold;
-    background-color: antiquewhite;
+    padding: 16px;
+    padding-inline-start: 40px;
 
 }
 
 .body{
     font: $font-stack;
     color: $primary-color;
-    background-color: antiquewhite;
+    font-size: 15 px;
+    margin: auto;
+    padding-inline-start: 40px;
+    padding: 16px;
 }
 .hi{
-    background-color: #C6C0B4;
+    background-color: #d0d0c4;
     font: $font-stack;
     color: #434C2E;
+    display: flex;
+    padding: 34px;
+    align-items: center;
 }
 
 .quote{
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     color: #6D5B3E;
-    background-color: antiquewhite;
-
+    padding-inline-start: 40px;
+    padding: 16px;
 }
