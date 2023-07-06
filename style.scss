@@ -1,0 +1,53 @@
+$primary-color: #151414;
+$font-stack: Helvetica, sans-serif;
+
+.header{
+    font: $font-stack;
+    font-weight: bold;
+    background-color: antiquewhite;
+    
+    a:link{
+        color:$primary-color;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #434C2E;
+        opacity: 0.8;
+        text-decoration: none;
+    }
+    a:visited{
+        color: #C6C0B4;
+        text-decoration: none;
+    }
+    a:active{
+        color: #C6C0B4;
+        text-decoration: underline;
+        
+    }
+}
+
+.title{
+    color: $primary-color;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-weight: bold;
+    background-color: antiquewhite;
+
+}
+
+.body{
+    font: $font-stack;
+    color: $primary-color;
+    background-color: antiquewhite;
+}
+.hi{
+    background-color: #C6C0B4;
+    font: $font-stack;
+    color: #434C2E;
+}
+
+.quote{
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: #6D5B3E;
+    background-color: antiquewhite;
+
+}

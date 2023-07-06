@@ -1,3 +1,49 @@
+.header {
+  font: Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: antiquewhite;
+}
+.header a:link {
+  color: #151414;
+  text-decoration: none;
+}
+.header a:hover {
+  color: #434C2E;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.header a:visited {
+  color: #C6C0B4;
+  text-decoration: none;
+}
+.header a:active {
+  color: #C6C0B4;
+  text-decoration: underline;
+}
 
+.title {
+  color: #151414;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  background-color: antiquewhite;
+}
+
+.body {
+  font: Helvetica, sans-serif;
+  color: #151414;
+  background-color: antiquewhite;
+}
+
+.hi {
+  background-color: #C6C0B4;
+  font: Helvetica, sans-serif;
+  color: #434C2E;
+}
+
+.quote {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #6D5B3E;
+  background-color: antiquewhite;
+}
 
 /*# sourceMappingURL=style.css.map */
