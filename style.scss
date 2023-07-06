@@ -3,24 +3,13 @@ $font-stack: 'Helvetica', 'Arial', sans-serif;
 
 html{
 background-color: rgb(255, 245, 233);
-// font: $font-stack;
-// color: $primary-color;
-// font-size: 15 px;
-// margin: auto;
-// position: relative;
-// padding-inline-start: 40px;
-// padding: 16px;
-img{
-    max-width: 50%;
-    max-height: 50%;
-    }
 }
+
 .header{
-    font: $font-stack;
+    font-family: $font-stack;
     font-weight: bold;
     vertical-align: baseline;
     padding: 16px;
-    padding-inline-start: 40px;
     margin-block-start: 1em;
     scroll-margin-block-end: 1em;
     letter-spacing: .015em;
@@ -50,20 +39,18 @@ img{
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     font-weight: bold;
     padding: 16px;
-    padding-inline-start: 40px;
-
 }
 
 .body{
-    font: $font-stack;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     color: $primary-color;
     font-size: 15 px;
     margin: auto;
     padding-inline-start: 40px;
     padding: 16px;
         img{
-        max-width: 50%;
-        max-height: 50%;
+        max-width: 75%;
+        max-height: 75%;
         }
 }
 .hi{
