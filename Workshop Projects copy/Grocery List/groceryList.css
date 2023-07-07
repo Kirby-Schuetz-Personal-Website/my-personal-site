@@ -1,0 +1,84 @@
+
+
+
+
+/* Two Columns code */
+.column {
+    float: left;
+    width: 50%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    color:#205b5b;
+    background-color: #f3eadc;
+    text-align: center;
+    display: flex;
+    font-size: 5rem;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px rgb(232, 192, 203), 2px 2px 1px rgb(109, 108, 62);
+    text-align: center;
+}
+th, td {
+    border: 3px solid white;
+    border-collapse: collapse;
+    border-radius: 40px;
+    border-style: dotted;
+    display: flex;
+    flex-direction: row;
+    padding-left: 35px;
+    background-color: #96D4D4;
+    font-family: AppleGothic;
+}
+
+#freezer {
+    background-color: #e0eac5;
+    list-style-type: circle;
+    border-radius: 40px;
+
+}
+
+ 
+#produce {
+    background-color: #f3eadc;
+    list-style-type: circle;
+    border-radius: 40px;
+
+}
+
+#pictures {
+    border: 3px solid rgb(240, 221, 213);
+    border-style: dotted;
+    padding-right: 25px;
+    display:flex;
+    background-color: #205b5b;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    font-style: oblique 40deg;
+}
+
+.box {
+    display: flex;
+    padding: 10px;
+    
+}
+
+img {
+    border-radius: 40px;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+}
+ 
+  
+  
+ 
+ 
+
+ 
