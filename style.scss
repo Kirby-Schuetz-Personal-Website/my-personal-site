@@ -46,12 +46,15 @@ background-color: rgb(255, 245, 233);
     color: $primary-color;
     font-size: 15 px;
     margin: auto;
-    padding-inline-start: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-self: center;
     padding: 16px;
         img{
         max-width: 75%;
         max-height: 75%;
-        margin-bottom:30px;
+        // margin-bottom:30px;
         }
         a:link{
         color: $primary-color;
@@ -70,6 +73,7 @@ background-color: rgb(255, 245, 233);
         text-decoration: underline;
         }
 }
+
 .hi{
     background-color: #d0d0c4;
     font: $font-stack;
