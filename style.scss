@@ -9,7 +9,7 @@ background-color: rgb(255, 245, 233);
     font-family: $font-stack;
     font-weight: bold;
     vertical-align: baseline;
-    padding: 16px;
+    padding: 2em;
     margin-block-start: 1em;
     scroll-margin-block-end: 1em;
     letter-spacing: .015em;
@@ -38,7 +38,7 @@ background-color: rgb(255, 245, 233);
     color: $primary-color;
     font-family: $font-stack;
     font-weight: bold;
-    padding: 16px;
+    padding: 2em;
 }
 
 .body{
@@ -50,7 +50,7 @@ background-color: rgb(255, 245, 233);
     flex-wrap: wrap;
     position: relative;
     align-self: center;
-    padding: 16px;
+    padding: 2em;
         img{
         max-width: 75%;
         max-height: 75%;
